@@ -20,6 +20,9 @@
 
 /* Begin PBXFileReference section */
 		A3E82EFD1A56C9DB00446A18 /* cucumber-xcode-formatter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cucumber-xcode-formatter"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3E82F091A56CA9B00446A18 /* xcode_formatter.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = xcode_formatter.rb; sourceTree = "<group>"; };
+		A3E82F0A1A56CA9B00446A18 /* xcode_formatter.feature */ = {isa = PBXFileReference; lastKnownFileType = text; path = xcode_formatter.feature; sourceTree = "<group>"; };
+		A3E82F0B1A56CA9B00446A18 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +39,8 @@
 		A3E82EF41A56C9DB00446A18 = {
 			isa = PBXGroup;
 			children = (
+				A3E82F071A56CA9B00446A18 /* features */,
+				A3E82F0B1A56CA9B00446A18 /* README.md */,
 				A3E82EFE1A56C9DB00446A18 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,6 +51,23 @@
 				A3E82EFD1A56C9DB00446A18 /* cucumber-xcode-formatter */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A3E82F071A56CA9B00446A18 /* features */ = {
+			isa = PBXGroup;
+			children = (
+				A3E82F081A56CA9B00446A18 /* support */,
+				A3E82F0A1A56CA9B00446A18 /* xcode_formatter.feature */,
+			);
+			path = features;
+			sourceTree = "<group>";
+		};
+		A3E82F081A56CA9B00446A18 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				A3E82F091A56CA9B00446A18 /* xcode_formatter.rb */,
+			);
+			path = support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +239,7 @@
 				A3E82F061A56C9DB00446A18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
