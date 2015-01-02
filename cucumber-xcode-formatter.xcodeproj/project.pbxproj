@@ -39,8 +39,8 @@
 		A3E82EF41A56C9DB00446A18 = {
 			isa = PBXGroup;
 			children = (
-				A3E82F071A56CA9B00446A18 /* features */,
 				A3E82F0B1A56CA9B00446A18 /* README.md */,
+				A3E82F071A56CA9B00446A18 /* features */,
 				A3E82EFE1A56C9DB00446A18 /* Products */,
 			);
 			sourceTree = "<group>";

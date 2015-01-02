@@ -30,11 +30,13 @@ In Xcode, you will have a target for the step_definitions (for example in .cpp f
 4. Set the Shell to /bin/sh
 5. Add the following lines as the script:
 
+```bash
     ${BUILT_PRODUCTS_DIR}/"${PRODUCT_NAME}" &
     ps cax | grep "${PRODUCT_NAME}" > /dev/null
     if [ $? -eq 0 ]; then
         cucumber --no-snippets --strict --format Cucumber::Formatter::Xcode
     fi
+```
 
 When the product is built, assuming the main target builds successfully, the script will run the test target in the background so that it acts as a wire server, and then run Cucumber to get the step results.
 
