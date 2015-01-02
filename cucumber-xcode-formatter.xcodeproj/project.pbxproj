@@ -57,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				A3E82F0A1A56CA9B00446A18 /* xcode_formatter.feature */,
-				A3E82F0F1A56D0B800446A18 /* step_definitions */,
 				A3E82F081A56CA9B00446A18 /* support */,
 			);
 			path = features;
@@ -69,13 +68,6 @@
 				A3E82F091A56CA9B00446A18 /* xcode_formatter.rb */,
 			);
 			path = support;
-			sourceTree = "<group>";
-		};
-		A3E82F0F1A56D0B800446A18 /* step_definitions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = step_definitions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
