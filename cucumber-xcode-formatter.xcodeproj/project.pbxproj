@@ -80,6 +80,7 @@
 				A3E82EF91A56C9DB00446A18 /* Sources */,
 				A3E82EFA1A56C9DB00446A18 /* Frameworks */,
 				A3E82EFB1A56C9DB00446A18 /* CopyFiles */,
+				A3E82F0C1A56CC1E00446A18 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -120,6 +121,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A3E82F0C1A56CC1E00446A18 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cucumber --no-snippets --strict --format Cucumber::Formatter::Xcode\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A3E82EF91A56C9DB00446A18 /* Sources */ = {

@@ -47,7 +47,7 @@ module Cucumber
 
                 # one error for the step_definitions, but only if exception
 
-                if exception != nil
+                if exception != nil && !file_colon_line[/\.feature/]
 
                     format_for_xcode('features/step_definitions/' + step_match.file_colon_line, type, format_step(keyword, step_match, status, nil) + ', ' + exception.message)
 
