@@ -22,7 +22,7 @@
 		A3E82EFD1A56C9DB00446A18 /* cucumber-xcode-formatter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cucumber-xcode-formatter"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E82F091A56CA9B00446A18 /* xcode_formatter.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = xcode_formatter.rb; sourceTree = "<group>"; };
 		A3E82F0A1A56CA9B00446A18 /* xcode_formatter.feature */ = {isa = PBXFileReference; lastKnownFileType = text; path = xcode_formatter.feature; sourceTree = "<group>"; };
-		A3E82F0B1A56CA9B00446A18 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A3E82F0B1A56CA9B00446A18 /* README.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

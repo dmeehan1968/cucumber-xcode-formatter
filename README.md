@@ -10,7 +10,7 @@ I've found this particularly useful when working with [cucumber-cpp](https://git
 Installation
 ============
 
-The only required file is features/support/xcode_formatter.rb.  You should create a support folder within your features folder, and copy place xcode_formatter.rb there.
+The only required file is [features/support/xcode_formatter.rb](https://github.com/dmeehan1968/cucumber-xcode-formatter/blob/master/features/support/xcode_formatter.rb).  You should create a support folder within your features folder, and copy place xcode_formatter.rb there.
 
     /features
         <your features>
