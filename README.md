@@ -25,10 +25,11 @@ Usage
 In Xcode, you will have a target for the step_definitions (for example in .cpp files compatible with cucumber-cpp).  
 
 1. Highlight the Project in the Project Navigator
-2. Choose Build Phases
-3. Add a New Run Script Phase
-4. Set the Shell to /bin/sh
-5. Add the following lines as the script:
+2. Highlight the Build Target that includes your step definitions
+3. Choose Build Phases
+4. Add a New Run Script Phase
+5. Set the Shell to /bin/sh
+6. Add the following lines as the script:
 
 ```bash
     ${BUILT_PRODUCTS_DIR}/"${PRODUCT_NAME}" &
