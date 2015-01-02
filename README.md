@@ -47,7 +47,20 @@ If any cucumber steps fail, are skipped or undefined, the formatter will produce
 
 You should see issues in the Issues Navigator for each error or warning, with links to both the line in the .feature file and in the step_definitions source file.
 
+TODO
+====
+
+There are currently no step definitions that allow the features to be validated.
+Steps have been written with the similar language to the built in formatter 
+features so they should be able to be validated that way in future.
+
+If anyone knows how to reference the Cucumber standard step definitions and support files, do let me know, or create a pull request.
+
 Feedback
 ========
 
 Please create [Github Issues](https://github.com/dmeehan1968/cucumber-xcode-formatter/issues) for any problems or queries that you have.
+
+
+
+
